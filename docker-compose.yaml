@@ -1,5 +1,5 @@
 services:
-  nginx-http-flv:
+  nginx-rtmp:
     build:
       context: .
       dockerfile: Dockerfile

@@ -18,7 +18,7 @@ RUN \
     wget https://github.com/sergey-dryabzhinsky/nginx-rtmp-module/archive/v${NGINX_RTMP_VERSION}.tar.gz && \
     tar xzf v${NGINX_RTMP_VERSION}.tar.gz && \
     cd nginx-${NGINX_VERSION} && \
-    ./configure --add-module=../nginx-http-flv-module-${NGINX_RTMP_VERSION} && \
+    ./configure --add-module=../nginx-rtmp-module-${NGINX_RTMP_VERSION} && \
     make && \
     make install && \
     cd .. && \
