@@ -1,5 +1,5 @@
 # nginx-rtmp-docker
-Docker image with Nginx using the [nginx-rtmp-module](https://github.com/sergey-dryabzhinsky/nginx-rtmp-module) for live multimedia (video) streaming.
+Docker image with Nginx using the [nginx-rtmp-module](https://github.com/sergey-dryabzhinsky/nginx-rtmp-module) for live multimedia (video/audio) streaming.
 
 ## How to use
 >docker build -t nginx-rtmp .
