@@ -1,7 +1,7 @@
-ARG NGINX_VERSION=1.26.1
+ARG NGINX_VERSION=1.28.2
 ARG NGINX_RTMP_VERSION=1.2.2-r1
 
-FROM alpine:3.20 AS base
+FROM alpine:3.23 AS base
 
 RUN apk add --no-cache pcre openssl
 
